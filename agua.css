@@ -1,0 +1,46 @@
+/* Definindo um fundo azul claro para a página */
+body {
+    background-color: #e0f7fa; /* Cor de fundo estilo "água" */
+    color: #0277bd; /* Cor do texto azul escuro */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Personalizando o título */
+h1 {
+    font-family: 'Arial', sans-serif;
+    color: #01579b;
+}
+
+/* Estilizando o parágrafo de texto */
+p {
+    font-family: 'Verdana', sans-serif;
+}
+
+/* Adicionando um estilo especial para o texto em estilo "lead" */
+.lead {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+/* Personalizando o parágrafo de texto com classe text-muted */
+.text-muted {
+    font-style: italic;
+    font-size: 1rem;
+}
+
+/* Melhorando o espaçamento entre os cards */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Melhorando o espaçamento entre as listas e a tabela */
+.list-group-item {
+    font-size: 1.1rem;
+}
+
+/* Estilo dos botões */
+button {
+    margin: 10px;
+    font-size: 1.2rem;
+}
