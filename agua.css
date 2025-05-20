@@ -1,46 +1,42 @@
-/* Definindo um fundo azul claro para a página */
-body {
-    background-color: #e0f7fa; /* Cor de fundo estilo "água" */
-    color: #0277bd; /* Cor do texto azul escuro */
-    font-family: 'Arial', sans-serif;
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Personalizando o título */
-h1 {
-    font-family: 'Arial', sans-serif;
-    color: #01579b;
+.cabecalho{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 30px;
 }
 
-/* Estilizando o parágrafo de texto */
-p {
-    font-family: 'Verdana', sans-serif;
+.cabecalho h3{
+    color: rgb(206, 206, 8);
 }
 
-/* Adicionando um estilo especial para o texto em estilo "lead" */
-.lead {
-    font-size: 1.5rem;
-    font-weight: 400;
+p .alinha{
+    text-align: right;
+}
+.img-agro{
+    width: 300px;
 }
 
-/* Personalizando o parágrafo de texto com classe text-muted */
-.text-muted {
-    font-style: italic;
-    font-size: 1rem;
+.br-3{
+    border-radius: 15px;
 }
 
-/* Melhorando o espaçamento entre os cards */
-.card {
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.img-card{
+    max-height: 250px;
 }
 
-/* Melhorando o espaçamento entre as listas e a tabela */
-.list-group-item {
-    font-size: 1.1rem;
+.img-slide{
+    max-height: 400px;
 }
 
-/* Estilo dos botões */
-button {
-    margin: 10px;
-    font-size: 1.2rem;
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
 }
