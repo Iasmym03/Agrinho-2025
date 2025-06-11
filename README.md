@@ -67,15 +67,9 @@ Destaque para a produção de alimentos
 A importância da irrigação e do manejo eficiente
 
 ➤ Como Usar
-Você pode visualizar o site diretamente baixando ou clonando o repositório e abrindo o arquivo index.html em seu navegador:
+Você pode visualizar o site diretamente colando o seguinte link em seu navegador:
 
-bash
-Copiar
-Editar
-git clone https://github.com/seu-usuario/Agrinho-2025.git
-cd Agrinho-2025
-start index.html
-Nenhuma instalação adicional é necessária, pois o projeto é todo em HTML estático.
+https://agrinho-2025-njzt.vercel.app/
 
 ➤ Público-Alvo
 Estudantes do Ensino Fundamental e Médio
