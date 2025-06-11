@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Agrinho 2025</title>
+  <title>Energia Rural - Agrinho 2025</title>
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
@@ -19,11 +19,13 @@
 </head>
 
 <body>
-    <!-- Cabeçalho -->
+  <!-- Cabeçalho -->
   <header class="bg-success text-white text-center py-5">
     <h1 class="fw-bold">AGRINHO 2025</h1>
     <h3 class="text-warning fw-light">Festejando a Conexão entre o Campo e a Cidade</h3>
   </header>
+
+  <!-- Navegação -->
   <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
     <div class="container">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -31,13 +33,98 @@
       </button>
       <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link active" href="index.html">Página Inicial</a></li>
-          <li class="nav-item"><a class="nav-link" href="energia.html">Energia Rural</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html">Página Inicial</a></li>
+          <li class="nav-item"><a class="nav-link active" href="energia.html">Energia Rural</a></li>
           <li class="nav-item"><a class="nav-link" href="agua.html">Acessibilidade à Água</a></li>
           <li class="nav-item"><a class="nav-link" href="producao.html">Produção</a></li>
         </ul>
       </div>
     </div>
   </nav>
+
+  <!-- Conteúdo Principal -->
+  <div class="container text-center mt-5">
+    <h1 class="display-4">Energia Rural</h1>
+    <p class="lead">A energia é essencial para o desenvolvimento das áreas rurais e melhora a qualidade de vida no campo.</p>
+    <p class="text-muted">Aqui você vai conhecer mais sobre as fontes de energia utilizadas no meio rural e seus impactos positivos.</p>
+
+    <!-- Imagem sobre energia -->
+    <img src="https://via.placeholder.com/800x400.png?text=Energia+Rural" class="img-fluid mb-4" alt="Imagem de energia rural">
+
+    <!-- Seção sobre Fontes de Energia -->
+    <h2 class="mt-5">Fontes de Energia no Campo</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="https://via.placeholder.com/300x200.png?text=Solar" class="card-img-top" alt="Energia Solar">
+          <div class="card-body">
+            <h5 class="card-title">Energia Solar</h5>
+            <p class="card-text">Uma opção sustentável e abundante, ideal para regiões com muita incidência solar.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="https://via.placeholder.com/300x200.png?text=Eólica" class="card-img-top" alt="Energia Eólica">
+          <div class="card-body">
+            <h5 class="card-title">Energia Eólica</h5>
+            <p class="card-text">A força dos ventos pode ser convertida em eletricidade, reduzindo custos para produtores rurais.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4">
+          <img src="https://via.placeholder.com/300x200.png?text=Biomassa" class="card-img-top" alt="Biomassa">
+          <div class="card-body">
+            <h5 class="card-title">Biomassa</h5>
+            <p class="card-text">O aproveitamento de resíduos agrícolas para geração de energia é eficiente e econômico.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Curiosidades sobre Energia Rural -->
+    <h2 class="mt-5">Curiosidades sobre Energia Rural</h2>
+    <ul class="list-group">
+      <li class="list-group-item">Mais de 90% das propriedades rurais brasileiras já possuem acesso à energia elétrica.</li>
+      <li class="list-group-item">Sistemas solares fotovoltaicos vêm sendo cada vez mais adotados no campo.</li>
+      <li class="list-group-item">A energia permite o uso de irrigação, resfriadores de leite e automação agrícola.</li>
+      <li class="list-group-item">Muitas famílias do campo produzem sua própria energia e vendem o excedente.</li>
+    </ul>
+
+    <!-- Tabela com tipos de energia e suas vantagens -->
+    <h2 class="mt-5">Comparativo de Fontes de Energia</h2>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Fonte de Energia</th>
+          <th>Vantagens</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Solar</td>
+          <td>Renovável, silenciosa, ideal para locais remotos.</td>
+        </tr>
+        <tr>
+          <td>Eólica</td>
+          <td>Não emite poluentes, eficiente em regiões ventosas.</td>
+        </tr>
+        <tr>
+          <td>Biomassa</td>
+          <td>Reduz resíduos, baixo custo, boa para propriedades agrícolas.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Botões interativos -->
+    <h2 class="mt-5">Saiba mais!</h2>
+    <button class="btn btn-primary" onclick="alert('A energia transforma a vida no campo!')">Mais sobre Energia Rural</button>
+    <button class="btn btn-info" onclick="window.location.href='https://www.mme.gov.br/web/guest/secretarias/petroleo-gas-e-biocombustiveis/energia-no-meio-rural'">Visite o site do MME</button>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
