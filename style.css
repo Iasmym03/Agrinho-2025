@@ -40,3 +40,7 @@ p .alinha{
     text-align: center;
     padding: 5px;
 }
+
+.img-fluid{
+width: 300px; ;
+}
